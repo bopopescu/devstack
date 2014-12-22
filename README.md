@@ -1,4 +1,0 @@
-devstack
-========
-
-/opt/stack
