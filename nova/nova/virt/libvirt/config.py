@@ -435,6 +435,8 @@ class LibvirtConfigCPU(LibvirtConfigObject):
         self.cores = None
         self.threads = None
 
+        self.freq = None
+
         self.features = set()
 
     def parse_dom(self, xmldoc):
@@ -451,6 +453,8 @@ class LibvirtConfigCPU(LibvirtConfigObject):
                 self.sockets = int(c.get("sockets"))
                 self.cores = int(c.get("cores"))
                 self.threads = int(c.get("threads"))
+            elif c.tag == 'freq':
+                self.freq = int(c.text)
             elif c.tag == "feature":
                 f = LibvirtConfigCPUFeature()
                 f.parse_dom(c)
@@ -474,7 +478,8 @@ class LibvirtConfigCPU(LibvirtConfigObject):
             top.set("cores", str(self.cores))
             top.set("threads", str(self.threads))
             cpu.append(top)
-
+        if self.freq is not None:
+            cpu.append(self._text_node("freq", self.freq))
         # sorting the features to allow more predictable tests
         for f in sorted(self.features, key=lambda x: x.name):
             cpu.append(f.format_dom())

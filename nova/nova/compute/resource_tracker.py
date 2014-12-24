@@ -324,6 +324,8 @@ class ResourceTracker(object):
         # to report topology
         if "numa_topology" not in resources:
             resources["numa_topology"] = None
+        if "freq_list" not in resources:
+            resources["freq_list"] = 3400000
 
         self._verify_resources(resources)
 
