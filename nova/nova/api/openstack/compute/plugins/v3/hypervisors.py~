@@ -51,7 +51,7 @@ class HypervisorsController(wsgi.Controller):
             for field in ('vcpus', 'memory_mb', 'local_gb', 'vcpus_used',
                           'memory_mb_used', 'local_gb_used',
                           'hypervisor_type', 'hypervisor_version',
-                          'all_freq', 'curr_freq', 'free_ram_mb', 'free_disk_gb', 'current_workload',
+                          'curr_freq', 'free_ram_mb', 'free_disk_gb', 'current_workload',
                           'running_vms', 'cpu_info', 'disk_available_least',
                           'host_ip'):
                 hyp_dict[field] = hypervisor[field]

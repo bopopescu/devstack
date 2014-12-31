@@ -43,7 +43,8 @@ def make_hypervisor(elem, detail):
         elem.set('local_gb_used')
         elem.set('hypervisor_type')
         elem.set('hypervisor_version')
-        elem.set('freq_list')
+        elem.set('all_freq')
+        elem.set('curr_freq')
         elem.set('free_ram_mb')
         elem.set('free_disk_gb')
         elem.set('current_workload')
@@ -119,7 +120,8 @@ class HypervisorStatisticsTemplate(xmlutil.TemplateBuilder):
         root.set('vcpus_used')
         root.set('memory_mb_used')
         root.set('local_gb_used')
-        root.set('freq_list')
+        root.set('all_freq')
+        root.set('curr_freq')
         root.set('free_ram_mb')
         root.set('free_disk_gb')
         root.set('current_workload')
@@ -155,7 +157,7 @@ class HypervisorsController(object):
             fields = ('vcpus', 'memory_mb', 'local_gb', 'vcpus_used',
                       'memory_mb_used', 'local_gb_used',
                       'hypervisor_type', 'hypervisor_version',
-                      'freq_list', 'free_ram_mb', 'free_disk_gb', 'current_workload',
+                      'all_freq', 'curr_freq', 'free_ram_mb', 'free_disk_gb', 'current_workload',
                       'running_vms', 'cpu_info', 'disk_available_least')
             ext_loaded = self.ext_mgr.is_loaded('os-extended-hypervisors')
             if ext_loaded:

@@ -87,7 +87,7 @@ class IronicNodeState(host_manager.HostState):
 
     def consume_from_instance(self, instance):
         """Consume nodes entire resources regardless of instance request."""
-        self.all_freq = ''
+        self.all_freq = None
         self.curr_freq = 0
         self.free_ram_mb = 0
         self.free_disk_mb = 0

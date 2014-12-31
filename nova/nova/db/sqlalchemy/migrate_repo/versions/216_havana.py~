@@ -298,7 +298,7 @@ def upgrade(migrate_engine):
         Column('hypervisor_version', Integer, nullable=False),
         Column('cpu_info', MediumText(), nullable=False),
         Column('disk_available_least', Integer),
-        Column('all_freq', MediumText()),
+        Column('all_freq', MediumText(), nullable=False),
         Column('curr_freq', Integer),
         Column('free_ram_mb', Integer),
         Column('free_disk_gb', Integer),

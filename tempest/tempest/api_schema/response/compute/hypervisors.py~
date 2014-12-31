@@ -120,7 +120,6 @@ common_show_hypervisor = {
                         'format': 'ip-address'
                     },
                     'free_disk_gb': {'type': 'integer'},
-                    'all_freq': {'type': 'string'},
                     'curr_freq': {'type': 'integer'},
                     'free_ram_mb': {'type': 'integer'},
                     'hypervisor_hostname': {'type': 'string'},
@@ -145,7 +144,7 @@ common_show_hypervisor = {
                 },
                 'required': ['cpu_info', 'current_workload',
                              'disk_available_least', 'host_ip',
-                             'free_disk_gb', 'all_freq', 'curr_freq', 'free_ram_mb',
+                             'free_disk_gb', 'curr_freq', 'free_ram_mb',
                              'hypervisor_hostname', 'hypervisor_type',
                              'hypervisor_version', 'id', 'local_gb',
                              'local_gb_used', 'memory_mb', 'memory_mb_used',

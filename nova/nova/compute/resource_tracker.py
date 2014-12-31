@@ -324,10 +324,8 @@ class ResourceTracker(object):
         # to report topology
         if "numa_topology" not in resources:
             resources["numa_topology"] = None
-#        if "freq_list" not in resources:
- #           resources["freq_list"] = 3400000
-        #LOG.audit(_("Virt driver does not support " "'get_available_resource'  Compute tracking is disabled."))
-        resources["freq_list"] = utils.get_frequency()
+        resources["all_freq"] = utils.get_all_frequency()
+        resources["curr_freq"] = utils.get_curr_frequency()
 
         self._verify_resources(resources)
 
@@ -488,8 +486,10 @@ class ResourceTracker(object):
                     "total allocated virtual disk (GB): %(vdisk)s"),
                   {'pdisk': resources['local_gb'],
                    'vdisk': resources['local_gb_used']})
-        LOG.audit(_("Current frequency: %(freq_list)s, "),
-                  {'freq_list': resources['freq_list']})
+        LOG.audit(_("All frequency: %(all_freq)s, "),
+                  {'all_freq': resources['all_freq']})
+        LOG.audit(_("Current frequency: %(curr_freq)s, "),
+                  {'curr_freq': resources['curr_freq']})
         vcpus = resources['vcpus']
         if vcpus:
             LOG.audit(_("Total usable vcpus: %(tcpu)s, "
