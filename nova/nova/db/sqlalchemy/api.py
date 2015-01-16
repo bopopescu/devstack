@@ -643,8 +643,9 @@ def compute_node_statistics(context):
                              func.sum(models.ComputeNode.vcpus_used),
                              func.sum(models.ComputeNode.memory_mb_used),
                              func.sum(models.ComputeNode.local_gb_used),
-                             func.sum(models.ComputeNode.all_freq),
+                             func.count(models.ComputeNode.all_freq),
                              func.sum(models.ComputeNode.curr_freq),
+                             func.sum(models.ComputeNode.max_freq),
                              func.sum(models.ComputeNode.free_ram_mb),
                              func.sum(models.ComputeNode.free_disk_gb),
                              func.sum(models.ComputeNode.current_workload),
@@ -659,8 +660,8 @@ def compute_node_statistics(context):
 
     # Build a dict of the info--making no assumptions about result
     fields = ('count', 'vcpus', 'memory_mb', 'local_gb', 'vcpus_used',
-              'memory_mb_used', 'local_gb_used', 'all_freq', 'curr_freq', 'free_ram_mb', 'free_disk_gb',
-              'current_workload', 'running_vms', 'disk_available_least')
+              'memory_mb_used', 'local_gb_used', 'all_freq', 'curr_freq','max_freq',
+              'free_ram_mb', 'free_disk_gb', 'current_workload', 'running_vms', 'disk_available_least')
     return dict((field, int(result[idx] or 0))
                 for idx, field in enumerate(fields))
 

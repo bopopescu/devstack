@@ -300,6 +300,7 @@ def upgrade(migrate_engine):
         Column('disk_available_least', Integer),
         Column('all_freq', MediumText()),
         Column('curr_freq', Integer),
+        Column('max_freq', Integer),
         Column('free_ram_mb', Integer),
         Column('free_disk_gb', Integer),
         Column('current_workload', Integer),

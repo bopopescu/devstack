@@ -68,6 +68,7 @@ class IronicNodeState(host_manager.HostState):
 
         self.all_freq = compute.get('all_freq')
         self.curr_freq = compute['curr_freq']
+        self.max_freq = compute['max_freq']
         self.free_ram_mb = compute['free_ram_mb']
         self.total_usable_ram_mb = compute['memory_mb']
         self.free_disk_mb = compute['free_disk_gb'] * 1024
@@ -89,6 +90,7 @@ class IronicNodeState(host_manager.HostState):
         """Consume nodes entire resources regardless of instance request."""
         self.all_freq = ''
         self.curr_freq = 0
+        self.max_freq = 0
         self.free_ram_mb = 0
         self.free_disk_mb = 0
         self.vcpus_used = self.vcpus_total

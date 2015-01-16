@@ -112,6 +112,7 @@ class ComputeNode(BASE, NovaBase):
     # important when making scheduling decisions.
     all_freq = Column(MediumText())
     curr_freq = Column(Integer)
+    max_freq = Column(Integer)
     free_ram_mb = Column(Integer)
     free_disk_gb = Column(Integer)
     current_workload = Column(Integer)

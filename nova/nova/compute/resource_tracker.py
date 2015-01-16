@@ -326,7 +326,8 @@ class ResourceTracker(object):
             resources["numa_topology"] = None
         resources["all_freq"] = utils.get_all_frequency()
         resources["curr_freq"] = utils.get_curr_frequency()
-
+        resources["max_freq"] = utils.get_max_frequency()
+#        utils.set_curr_frequency()
         self._verify_resources(resources)
 
         self._report_hypervisor_resource_view(resources)
@@ -490,6 +491,8 @@ class ResourceTracker(object):
                   {'all_freq': resources['all_freq']})
         LOG.audit(_("Current frequency: %(curr_freq)s, "),
                   {'curr_freq': resources['curr_freq']})
+        LOG.audit(_("Maximum frequency: %(max_freq)s, "),
+                  {'max_freq': resources['max_freq']})
         vcpus = resources['vcpus']
         if vcpus:
             LOG.audit(_("Total usable vcpus: %(tcpu)s, "

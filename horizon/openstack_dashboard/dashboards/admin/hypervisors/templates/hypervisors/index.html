@@ -25,9 +25,9 @@
     </div>
 
     <div class="d3_quota_bar">
-    <div class="d3_pie_chart_usage" data-used="{% widthratio stats.local_gb_used stats.local_gb 100 %}"></div>
-     <strong>{% trans "Local Disk Usage" %} <br />
-         {% blocktrans with used=stats.local_gb_used|diskgbformat available=stats.local_gb|diskgbformat %}Used <span> {{ used }} </span> of <span> {{ available }} </span>{% endblocktrans %}
+    <div class="d3_pie_chart_usage" data-used="{% widthratio stats.curr_freq stats.max_freq 100 %}"></div>
+     <strong>{% trans "Frequency Usage" %} <br />
+         {% blocktrans with used=stats.curr_freq|intcomma available=stats.max_freq|intcomma %}Used <span> {{ used }} </span> of <sp$
      </strong>
     </div>
 </div>

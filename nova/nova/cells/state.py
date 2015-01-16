@@ -271,6 +271,7 @@ class CellStateManager(base.Base):
                 compute_hosts[host] = {
                         'all_freq': compute['all_freq'],
                         'curr_freq': compute['curr_freq'],
+                        'max_freq': compute['max_freq'],
                         'free_ram_mb': compute['free_ram_mb'],
                         'free_disk_mb': compute['free_disk_gb'] * 1024,
                         'total_ram_mb': compute['memory_mb'],
