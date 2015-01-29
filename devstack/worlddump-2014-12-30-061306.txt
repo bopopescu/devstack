@@ -1,0 +1,424 @@
+
+File System Summary
+===================
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       886G  8.3G  832G   1% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev             16G  4.0K   16G   1% /dev
+tmpfs           3.2G  1.3M  3.2G   1% /run
+none            5.0M     0  5.0M   0% /run/lock
+none             16G  500K   16G   1% /run/shm
+none            100M   40K  100M   1% /run/user
+/dev/sda1       511M  3.4M  508M   1% /boot/efi
+
+
+Process Listing
+===============
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  34168  3472 ?        Ss   Dec29   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Dec29   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Dec29   1:24 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Dec29   0:35 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    Dec29   0:35 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    Dec29   0:35 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    Dec29   0:35 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    Dec29   0:21 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    Dec29   0:20 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    Dec29   0:21 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    Dec29   0:22 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcu_bh]
+root        17  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/0]
+root        18  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/1]
+root        19  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/2]
+root        20  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/3]
+root        21  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/4]
+root        22  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/5]
+root        23  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/6]
+root        24  0.0  0.0      0     0 ?        S    Dec29   0:00 [rcuob/7]
+root        25  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/0]
+root        26  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/0]
+root        27  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/1]
+root        28  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/1]
+root        29  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/1]
+root        31  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/1:0H]
+root        32  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/2]
+root        33  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/2]
+root        34  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/2]
+root        36  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/2:0H]
+root        37  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/3]
+root        38  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/3]
+root        39  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/3]
+root        41  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/3:0H]
+root        42  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/4]
+root        43  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/4]
+root        44  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/4]
+root        46  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/4:0H]
+root        47  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/5]
+root        48  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/5]
+root        49  0.0  0.0      0     0 ?        S    Dec29   0:01 [ksoftirqd/5]
+root        51  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/5:0H]
+root        52  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/6]
+root        53  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/6]
+root        54  0.0  0.0      0     0 ?        S    Dec29   0:00 [ksoftirqd/6]
+root        55  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/6:0]
+root        56  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/6:0H]
+root        57  0.0  0.0      0     0 ?        S    Dec29   0:00 [watchdog/7]
+root        58  0.0  0.0      0     0 ?        S    Dec29   0:00 [migration/7]
+root        59  0.0  0.0      0     0 ?        S    Dec29   0:03 [ksoftirqd/7]
+root        60  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/7:0]
+root        61  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kworker/7:0H]
+root        62  0.0  0.0      0     0 ?        S<   Dec29   0:00 [khelper]
+root        63  0.0  0.0      0     0 ?        S    Dec29   0:00 [kdevtmpfs]
+root        64  0.0  0.0      0     0 ?        S<   Dec29   0:00 [netns]
+root        65  0.0  0.0      0     0 ?        S<   Dec29   0:00 [writeback]
+root        66  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kintegrityd]
+root        67  0.0  0.0      0     0 ?        S<   Dec29   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kblockd]
+root        70  0.0  0.0      0     0 ?        S<   Dec29   0:00 [ata_sff]
+root        71  0.0  0.0      0     0 ?        S    Dec29   0:00 [khubd]
+root        72  0.0  0.0      0     0 ?        S<   Dec29   0:00 [md]
+root        73  0.0  0.0      0     0 ?        S<   Dec29   0:00 [devfreq_wq]
+root        74  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/2:1]
+root        75  0.0  0.0      0     0 ?        S    Dec29   0:02 [kworker/1:1]
+root        77  0.0  0.0      0     0 ?        S    Dec29   0:00 [khungtaskd]
+root        78  0.0  0.0      0     0 ?        S    Dec29   0:00 [kswapd0]
+root        79  0.0  0.0      0     0 ?        SN   Dec29   0:00 [ksmd]
+root        80  0.0  0.0      0     0 ?        SN   Dec29   0:02 [khugepaged]
+root        81  0.0  0.0      0     0 ?        S    Dec29   0:00 [fsnotify_mark]
+root        82  0.0  0.0      0     0 ?        S    Dec29   0:00 [ecryptfs-kthrea]
+root        83  0.0  0.0      0     0 ?        S<   Dec29   0:00 [crypto]
+root        95  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kthrotld]
+root        97  0.0  0.0      0     0 ?        S    Dec29   0:02 [kworker/2:2]
+root        98  0.0  0.0      0     0 ?        S    Dec29   0:02 [kworker/3:1]
+root        99  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/5:1]
+root       118  0.0  0.0      0     0 ?        S<   Dec29   0:00 [deferwq]
+root       119  0.0  0.0      0     0 ?        S<   Dec29   0:00 [charger_manager]
+root       121  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/4:1]
+root       176  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_0]
+root       177  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_1]
+root       178  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_2]
+root       179  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_3]
+root       180  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_4]
+root       181  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_5]
+root       182  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_6]
+root       183  0.0  0.0      0     0 ?        S    Dec29   0:00 [scsi_eh_7]
+root       191  0.0  0.0      0     0 ?        S    Dec29   0:01 [kworker/7:1]
+root       193  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kpsmoused]
+root       194  0.0  0.0      0     0 ?        S    Dec29   0:01 [kworker/6:2]
+root       195  0.0  0.0      0     0 ?        S    Dec29   1:21 [kworker/0:1]
+root       241  0.0  0.0      0     0 ?        S<   Dec29   0:00 [bioset]
+root       250  0.0  0.0      0     0 ?        S<   Dec29   0:03 [kworker/u17:1]
+root       251  0.0  0.0      0     0 ?        S    Dec29   0:09 [jbd2/sda2-8]
+root       252  0.0  0.0      0     0 ?        S<   Dec29   0:00 [ext4-rsv-conver]
+root       421  0.0  0.0  19608   916 ?        S    Dec29   0:00 upstart-udev-bridge --daemon
+root       427  0.0  0.0  51732  1984 ?        Ss   Dec29   0:00 /lib/systemd/systemd-udevd --daemon
+root       585  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kmpathd]
+root       586  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kmpath_handlerd]
+root       597  0.0  0.0      0     0 ?        S    Dec29   0:00 [irq/64-mei_me]
+root       656  0.0  0.0  15408   716 ?        S    Dec29   0:00 upstart-file-bridge --daemon
+root       673  0.0  0.0      0     0 ?        S<   Dec29   0:00 [cfg80211]
+root       712  0.0  0.0      0     0 ?        S<   Dec29   0:00 [kvm-irqfd-clean]
+root       715  0.0  0.0      0     0 ?        S<   Dec29   0:00 [led_workqueue]
+root       727  0.0  0.0      0     0 ?        S<   Dec29   0:00 [hd-audio0]
+syslog     758  0.0  0.0 256232 21252 ?        Ssl  Dec29   0:15 rsyslogd
+root       813  0.0  0.0  15260   624 ?        S    Dec29   0:00 upstart-socket-bridge --daemon
+message+   901  0.0  0.0  40180  2376 ?        Ss   Dec29   0:01 dbus-daemon --system --fork
+root       920  0.0  0.0 330232  4412 ?        Ssl  Dec29   0:00 /usr/sbin/ModemManager
+root       950  0.0  0.0  43452  1924 ?        Ss   Dec29   0:00 /lib/systemd/systemd-logind
+avahi      953  0.0  0.0  32608  1956 ?        S    Dec29   0:02 avahi-daemon: running [allinone.local]
+avahi      958  0.0  0.0  32224   464 ?        S    Dec29   0:00 avahi-daemon: chroot helper
+root       961  0.0  0.0  19292  1484 ?        Ss   Dec29   0:00 /usr/sbin/bluetoothd
+root      1006  0.0  0.0      0     0 ?        S<   Dec29   0:00 [krfcommd]
+root      1220  0.0  0.0 345052  6332 ?        Ssl  Dec29   0:03 NetworkManager
+root      1229  0.0  0.2 287784 73288 ?        Ssl  Dec29   0:07 /sbin/zfs-fuse --pidfile /var/run/zfs-fuse.pid
+root      1342  0.0  0.0 280948  6992 ?        Sl   Dec29   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1358  0.0  0.0      0     0 ?        S<   Dec29   0:00 [iscsi_eh]
+root      1370  0.0  0.0      0     0 ?        S<   Dec29   0:00 [ib_addr]
+root      1534  0.0  0.0      0     0 ?        S<   Dec29   0:00 [ib_mcast]
+root      1535  0.0  0.0      0     0 ?        S<   Dec29   0:00 [ib_cm]
+root      1536  0.0  0.0      0     0 ?        S<   Dec29   0:00 [iw_cm_wq]
+root      1537  0.0  0.0      0     0 ?        S<   Dec29   0:00 [rdma_cm]
+root      1542  0.0  0.0   5264   492 ?        Ss   Dec29   0:01 /usr/sbin/iscsid
+root      1544  0.0  0.0   5764  3560 ?        S<Ls Dec29   0:07 /usr/sbin/iscsid
+root      1628  0.0  0.0  20016   968 tty4     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty4
+root      1633  0.0  0.0  20016   956 tty5     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty5
+root      1643  0.0  0.0  20016   956 tty2     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty2
+root      1644  0.0  0.0  20016   964 tty3     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty3
+root      1648  0.0  0.0  20016   964 tty6     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty6
+root      1686  0.0  0.0  75352  3408 ?        Ss   Dec29   0:00 /usr/sbin/cups-browsed
+root      1695  0.0  0.0   4368   708 ?        Ss   Dec29   0:02 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1704  0.0  0.0  23656  1064 ?        Ss   Dec29   0:00 cron
+root      1727  0.0  0.0  30608  2340 ?        Ss   Dec29   0:16 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1740  0.0  0.0  61364  3072 ?        Ss   Dec29   0:00 /usr/sbin/sshd -D
+root      1906  0.0  0.0  19264   768 ?        Ss   Dec29   0:04 /usr/sbin/irqbalance
+nobody    1991  0.0  0.0  35224  1536 ?        S    Dec29   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+whoopsie  1997  0.0  0.0 361292  5228 ?        Ssl  Dec29   0:00 whoopsie
+kernoops  2034  0.0  0.0  37144  1012 ?        Ss   Dec29   0:00 /usr/sbin/kerneloops
+root      2100  0.0  0.0      0     0 ?        S    Dec29   0:00 [kauditd]
+rabbitmq  2244  0.0  0.0   7496   320 ?        S    Dec29   0:00 /usr/lib/erlang/erts-5.10.4/bin/epmd -daemon
+rabbitmq  2411  0.0  0.0   4444   652 ?        S    Dec29   0:00 /bin/sh /usr/sbin/rabbitmq-server
+rabbitmq  2462  0.6  0.2 2444368 68940 ?       Sl   Dec29  10:09 /usr/lib/erlang/erts-5.10.4/bin/beam.smp -W w -K true -A30 -P 1048576 -- -root /usr/lib/erlang -progname erl -- -home /var/lib/rabbitmq -- -pa /usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../ebin -noshell -noinput -s rabbit boot -sname rabbit@allinone -boot start_sasl -kernel inet_default_connect_options [{nodelay,true}] -sasl errlog_type error -sasl sasl_error_logger false -rabbit error_logger {file,"/var/log/rabbitmq/rabbit@allinone.log"} -rabbit sasl_error_logger {file,"/var/log/rabbitmq/rabbit@allinone-sasl.log"} -rabbit enabled_plugins_file "/etc/rabbitmq/enabled_plugins" -rabbit plugins_dir "/usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../plugins" -rabbit plugins_expand_dir "/var/lib/rabbitmq/mnesia/rabbit@allinone-plugins-expand" -os_mon start_cpu_sup false -os_mon start_disksup false -os_mon start_memsup false -mnesia dir "/var/lib/rabbitmq/mnesia/rabbit@allinone"
+root      2701  0.0  0.0 277856  3692 ?        Ssl  Dec29   0:00 lightdm
+root      2736  0.0  0.0 287472  4280 ?        Sl   Dec29   0:10 /usr/lib/accountsservice/accounts-daemon
+root      2766  0.5  0.3 582256 115972 tty7    Ssl+ Dec29   8:27 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      2813  0.0  0.0 168304  3696 ?        Sl   Dec29   0:00 lightdm --session-child 12 15
+ericsson  2832  0.0  0.0  40980  3200 ?        Ss   Dec29   0:00 init --user
+rabbitmq  2878  0.0  0.0   7460   428 ?        Ss   Dec29   0:00 inet_gethost 4
+rabbitmq  2879  0.0  0.0   9556   644 ?        S    Dec29   0:00 inet_gethost 4
+ericsson  2991  0.0  0.0  40296  2416 ?        Ss   Dec29   0:44 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-2IKpWKuoXk
+ericsson  3000  0.0  0.0  22300  1156 ?        Ss   Dec29   0:00 upstart-event-bridge
+ericsson  3003  0.0  0.0  78328  4640 ?        Ss   Dec29   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ericsson  3018  0.0  0.0 223148  3760 ?        Sl   Dec29   0:00 gnome-keyring-daemon --start
+ericsson  3021  0.0  0.0  22308   636 ?        R    Dec29   0:15 upstart-dbus-bridge --daemon --session --user --bus-name session
+ericsson  3023  0.0  0.0  30784   696 ?        S    Dec29   0:00 upstart-file-bridge --daemon --user
+ericsson  3025  0.0  0.0  22308   392 ?        S    Dec29   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ericsson  3026  0.0  0.0 292252  9320 ?        Ssl  Dec29   0:39 /usr/bin/ibus-daemon --daemonize --xim
+ericsson  3047  0.0  0.0 813472 22000 ?        Ssl  Dec29   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ericsson  3054  0.0  0.0 691716 23820 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ericsson  3056  0.0  0.0 337568  3460 ?        Ssl  Dec29   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ericsson  3057  0.0  0.0 575412 17260 ?        Ssl  Dec29   0:00 gnome-session --session=ubuntu
+ericsson  3061  0.0  0.0 572740 20912 ?        Ssl  Dec29   1:31 /usr/lib/unity/unity-panel-service
+ericsson  3063  0.0  0.0  39380  2032 ?        S    Dec29   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ericsson  3068  0.0  0.0 270372  3424 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd
+ericsson  3078  0.0  0.0 280876  3464 ?        Sl   Dec29   0:00 /usr/lib/ibus/ibus-dconf
+ericsson  3079  0.0  0.0 481736 20272 ?        Sl   Dec29   0:09 /usr/lib/ibus/ibus-ui-gtk3
+ericsson  3084  0.0  0.0 386828  7336 ?        Sl   Dec29   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+root      3181  0.0  0.0  71476  2404 pts/14   S    Dec29   0:00 sudo su stack
+root      3183  0.0  0.0  70820  1832 pts/14   S    Dec29   0:00 su stack
+stack     3184  0.0  0.0  28156  5276 pts/14   S+   Dec29   0:00 bash
+ericsson  3248  0.0  0.0 345664  3144 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+root      3255  0.0  0.0  20016   968 tty1     Ss+  Dec29   0:00 /sbin/getty -8 38400 tty1
+ericsson  3270  0.0  0.0 548620 12388 ?        Sl   Dec29   0:06 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ericsson  3277  0.0  0.0 124912  3320 ?        Sl   Dec29   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      3301  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/5:2]
+root      3304  0.0  0.0 239340  4516 ?        Sl   Dec29   0:00 /usr/lib/upower/upowerd
+ericsson  3320  0.0  0.0 373752  6308 ?        S<l  Dec29   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     3322  0.0  0.0 168916  1308 ?        SNl  Dec29   0:00 /usr/lib/rtkit/rtkit-daemon
+ericsson  3421  0.0  0.0 520556 15096 ?        Sl   Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ericsson  3423  0.0  0.0 335080  3016 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ericsson  3476  0.0  0.0 263632  2948 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ericsson  3484  0.0  0.0 278444  3400 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ericsson  3526  0.0  0.0 1162420 11228 ?       Ssl  Dec29   0:33 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ericsson  3535  0.0  0.0 479356  5680 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ericsson  3536  0.0  0.0 446724 11640 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ericsson  3537  0.0  0.0 893720  5996 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ericsson  3552  0.0  0.0 286748  5036 ?        Ssl  Dec29   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ericsson  3588  0.0  0.0 205152  3560 ?        Sl   Dec29   0:07 /usr/lib/ibus/ibus-engine-simple
+ericsson  3603  0.0  0.0 833192 12832 ?        Sl   Dec29   0:00 /usr/lib/evolution/evolution-source-registry
+ericsson  3609  0.0  0.0 421268 16228 ?        Sl   Dec29   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+ericsson  3614  0.7  0.7 1682532 236700 ?      Sl   Dec29  11:53 compiz
+colord    3650  0.0  0.0 301484  5744 ?        Sl   Dec29   0:00 /usr/lib/colord/colord
+ericsson  3652  0.0  0.0 178308  4760 ?        Sl   Dec29   0:00 /usr/lib/dconf/dconf-service
+ericsson  3701  0.0  0.1 1073740 44004 ?       Sl   Dec29   0:00 /usr/lib/evolution/evolution-calendar-factory
+ericsson  3759  0.0  0.0 403300  9376 ?        Sl   Dec29   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ericsson  3763  0.0  0.0 331704  9524 ?        Sl   Dec29   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ericsson  3766  0.0  0.0 590888 18140 ?        Sl   Dec29   0:00 nm-applet
+ericsson  3770  0.0  0.1 895612 39272 ?        Sl   Dec29   0:03 nautilus -n
+ericsson  3778  0.0  0.0 298836  4952 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      3785  0.0  0.0 436816  5484 ?        Sl   Dec29   0:08 /usr/lib/udisks2/udisksd --no-debug
+ericsson  3796  0.0  0.0 212440  3412 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ericsson  3802  0.0  0.0 200276  2860 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ericsson  3806  0.0  0.0 285964  3352 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ericsson  3808  0.0  0.0  58152  3672 ?        S    Dec29   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ericsson  3819  0.0  0.0 270376  3064 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ericsson  3827  0.0  0.0 433140  5880 ?        Sl   Dec29   0:01 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ericsson  3875  0.0  0.0 455100 14056 ?        Sl   Dec29   0:00 telepathy-indicator
+ericsson  3880  0.0  0.0 322472  7292 ?        Sl   Dec29   0:00 /usr/lib/telepathy/mission-control-5
+ericsson  3893  0.0  0.0 516748 11440 ?        Sl   Dec29   0:01 zeitgeist-datahub
+ericsson  3898  0.0  0.0 348992  5196 ?        Sl   Dec29   0:00 /usr/bin/zeitgeist-daemon
+ericsson  3904  0.0  0.0 253212 11172 ?        Sl   Dec29   0:01 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ericsson  3929  0.0  0.0  11412   620 ?        S    Dec29   0:00 /bin/cat
+ericsson  3956  0.1  0.0 658748 27988 ?        Sl   Dec29   1:36 gnome-terminal
+ericsson  3963  0.0  0.0  14824   840 ?        S    Dec29   0:00 gnome-pty-helper
+ericsson  3964  0.0  0.0  39364 16188 pts/0    Ss+  Dec29   0:00 bash
+ericsson  4026 25.3  4.7 2635272 1538220 ?     Sl   Dec29 404:49 /usr/lib/firefox/firefox
+ericsson  4055  0.0  0.0 256988  4960 ?        Sl   Dec29   0:00 /usr/lib/libunity-webapps/unity-webapps-service
+ericsson  4067  0.0  0.0 570548 15888 ?        Sl   Dec29   0:00 update-notifier
+ericsson  4153  0.0  0.0 377732  4144 ?        Sl   Dec29   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      6193  0.0  0.0  19548   968 ?        Ss   Dec29   0:01 /usr/sbin/conntrackd -d -C /etc/conntrackd/conntrackd.conf
+root      6267  0.0  0.0  76852  3844 ?        Ss   Dec29   0:00 /usr/sbin/cupsd -f
+lp        6270  0.0  0.0  63156  1984 ?        S    Dec29   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+ericsson  7350  0.0  0.0  28080  5192 pts/6    Ss   Dec29   0:00 bash
+ericsson  7853  0.0  0.0 124444  2764 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      8671  0.0  0.0  71240  2180 pts/6    S    Dec29   0:00 sudo su stack
+root      8672  0.0  0.0  70820  1828 pts/6    S    Dec29   0:00 su stack
+stack     8673  0.0  0.0  28320  5456 pts/6    S    Dec29   0:00 bash
+root      8676  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/3:2]
+root      8679  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/1:2]
+root     10213  0.1  0.0  41708  1264 ?        Ssl  Dec29   2:55 /usr/sbin/cpufreqd -f /etc/cpufreqd.conf
+ericsson 11016  0.0  0.0 742524 17200 ?        Sl   Dec29   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ericsson 11029  0.0  0.0 663660 23640 ?        Sl   Dec29   0:01 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ericsson 11033  0.0  0.0 561276 10668 ?        Sl   Dec29   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ericsson 11035  0.0  0.0 345964  8736 ?        Sl   Dec29   0:01 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+ericsson 11095  0.0  0.0 809360 12340 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+root     11476  0.0  0.0  71240  2164 pts/6    T    Dec29   0:00 sudo nano freqset.sh
+root     11477  0.0  0.0  19672  2936 pts/6    T    Dec29   0:00 nano freqset.sh
+ericsson 11594  0.0  0.0  28056  5024 pts/9    Ss   Dec29   0:00 bash
+ericsson 13086  0.0  0.0  28160  5288 pts/11   Ss+  Dec29   0:00 bash
+ericsson 14071  0.0  0.0   4444   720 ?        S    Dec29   0:00 /bin/sh /usr/share/pycharm/bin/pycharm.sh
+ericsson 14120  0.6  1.5 6058052 500924 ?      Sl   Dec29   8:50 /usr/lib/jvm/java-7-openjdk-amd64/bin/java -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/share/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/home/ericsson/java_error_in_PYCHARM_%p.log -Xbootclasspath/a:/usr/share/pycharm/lib/boot.jar -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true -Djb.restart.code=88 com.intellij.idea.Main
+ericsson 14162  0.0  0.0  28068  5188 pts/14   Ss   Dec29   0:00 bash
+ericsson 14206  0.0  0.0   5456  1748 ?        S    Dec29   0:03 /usr/share/pycharm/bin/fsnotifier64
+root     15661  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/4:2]
+root     15925  0.0  0.0      0     0 ?        S<   Dec29   0:02 [kworker/u17:2]
+root     16227  0.0  0.0      0     0 ?        S    Dec29   0:00 [kworker/0:0]
+root     17488  0.0  0.0  71480  2400 pts/9    S    Dec29   0:00 sudo su stack
+root     17499  0.0  0.0  70820  1824 pts/9    S    Dec29   0:00 su stack
+stack    17500  0.0  0.0  29084  6212 pts/9    S    Dec29   0:00 bash
+root     17560  0.0  0.0  24440   588 pts/9    S    Dec29   0:00 dbus-launch --autolaunch=2aef9e20ddf4e6843b362a3d5497a593 --binary-syntax --close-stderr
+root     17561  0.0  0.0  39216  1180 ?        Ss   Dec29   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root     17566  0.0  0.0 178204  2728 ?        Sl   Dec29   0:00 /usr/lib/dconf/dconf-service
+root     17568  0.0  0.0 275128  4800 ?        Sl   Dec29   0:00 /usr/bin/zeitgeist-daemon
+root     17579  0.0  0.0 861556 12328 ?        Sl   Dec29   0:01 zeitgeist-datahub
+root     17599  0.0  0.0 196640  4968 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd
+root     17605  0.0  0.0 353996  5188 ?        Sl   Dec29   0:00 /usr/lib/gvfs/gvfsd-fuse /opt/stack/.gvfs -f -o big_writes
+root     17733  0.0  0.0      0     0 ?        S    11:30   0:00 [kworker/u16:2]
+root     17833  0.0  0.0  71240  2156 pts/9    S    Dec29   0:00 sudo nautilus
+root     17834  0.0  0.0 837240 29196 pts/9    Sl   Dec29   0:09 nautilus
+root     17897  0.0  0.3 893100 106724 pts/9   Sl   Dec29   0:42 gedit /opt/stack/nova/nova/utils.py
+stack    18955  0.2  0.0  22124  7272 pts/9    S+   11:35   0:01 bash ./stack.sh
+stack    19093  0.0  0.0  18004  1996 pts/9    S+   11:35   0:00 bash ./stack.sh
+stack    19094  0.0  0.0  24684  6024 pts/9    S+   11:35   0:00 python /home/ericsson/devstack/tools/outfilter.py -v
+root     19686  0.0  0.0  20928   564 ?        S<s  11:35   0:00 ovsdb-server: monitoring pid 19687 (healthy)                                                                                                                                                                                                                                                                                                                                                        
+root     19687  0.0  0.0  21188  2152 ?        S<   11:35   0:00 ovsdb-server /etc/openvswitch/conf.db -vconsole:emer -vsyslog:err -vfile:info --remote=punix:/var/run/openvswitch/db.sock --private-key=db:Open_vSwitch,SSL,private_key --certificate=db:Open_vSwitch,SSL,certificate --bootstrap-ca-cert=db:Open_vSwitch,SSL,ca_cert --no-chdir --log-file=/var/log/openvswitch/ovsdb-server.log --pidfile=/var/run/openvswitch/ovsdb-server.pid --detach --monitor
+root     19696  0.0  0.0  21436   576 ?        S<s  11:35   0:00 ovs-vswitchd: monitoring pid 19697 (healthy)                                                                                                                                                                                    
+root     19697  0.0  0.1 538152 65012 ?        S<Ll 11:35   0:00 ovs-vswitchd unix:/var/run/openvswitch/db.sock -vconsole:emer -vsyslog:err -vfile:info --mlockall --no-chdir --log-file=/var/log/openvswitch/ovs-vswitchd.log --pidfile=/var/run/openvswitch/ovs-vswitchd.pid --detach --monitor
+root     21848  0.0  0.0 966988 12728 ?        Sl   11:35   0:00 /usr/sbin/libvirtd -d
+root     22207  0.0  0.0  10232  3752 ?        S    10:26   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth2.pid -lf /var/lib/NetworkManager/dhclient-d302f771-ca42-4a24-af48-7200d1c32554-eth2.lease -cf /var/lib/NetworkManager/dhclient-eth2.conf eth2
+mysql    22960  1.1  0.2 2850516 91424 ?       Ssl  11:35   0:04 /usr/sbin/mysqld
+stack    23022  0.1  0.0  33324 10628 ?        Ss   11:35   0:00 SCREEN -d -m -S stack -t shell -s /bin/bash
+stack    23024  0.0  0.0  21040  4836 pts/26   Ss+  11:35   0:00 /bin/bash
+stack    23365  0.0  0.0  21036  4888 pts/27   Ss   11:36   0:00 /bin/bash
+root     23386  0.0  0.0  64192  2084 pts/27   S+   11:36   0:00 sudo tail -f /var/log/apache2/keystone.log
+root     23391  0.0  0.0   4384   360 pts/27   S+   11:36   0:00 tail -f /var/log/apache2/keystone.log
+stack    23396  0.0  0.0  21036  4888 pts/28   Ss   11:36   0:00 /bin/bash
+root     23414  0.0  0.0  64192  2084 pts/28   S+   11:36   0:00 sudo tail -f /var/log/apache2/keystone_access.log
+root     23415  0.0  0.0   4384   364 pts/28   S+   11:36   0:00 tail -f /var/log/apache2/keystone_access.log
+ericsson 23927  0.0  0.0  28068  5184 pts/52   Ss+  Dec29   0:00 bash
+root     24631  0.0  0.0  84284  3088 ?        Ss   11:37   0:00 /usr/sbin/apache2 -k start
+stack    24634  0.0  0.0 250144  5680 ?        Sl   11:37   0:00 (wsgi:horizon)    -k start
+stack    24635  0.0  0.0 250144  5680 ?        Sl   11:37   0:00 (wsgi:horizon)    -k start
+stack    24636  0.0  0.0 250152  5680 ?        Sl   11:37   0:00 (wsgi:horizon)    -k start
+stack    24637  0.2  0.1 406884 50588 ?        Sl   11:37   0:00 (wsgi:keystone-pu -k start
+stack    24638  0.0  0.0 176308  5680 ?        Sl   11:37   0:00 (wsgi:keystone-pu -k start
+stack    24639  0.2  0.1 406884 50588 ?        Sl   11:37   0:00 (wsgi:keystone-pu -k start
+stack    24640  0.0  0.0 176308  5680 ?        Sl   11:37   0:00 (wsgi:keystone-pu -k start
+stack    24641  0.0  0.0 176316  5680 ?        Sl   11:37   0:00 (wsgi:keystone-pu -k start
+stack    24642  0.6  0.1 408932 53880 ?        Sl   11:37   0:02 (wsgi:keystone-ad -k start
+stack    24643  0.7  0.1 408932 53924 ?        Sl   11:37   0:02 (wsgi:keystone-ad -k start
+stack    24644  0.7  0.1 409188 53832 ?        Sl   11:37   0:02 (wsgi:keystone-ad -k start
+stack    24645  0.6  0.1 408932 53528 ?        Sl   11:37   0:02 (wsgi:keystone-ad -k start
+stack    24646  0.6  0.1 408676 53236 ?        Sl   11:37   0:02 (wsgi:keystone-ad -k start
+www-data 24647  0.0  0.0 441536  8836 ?        Sl   11:37   0:00 /usr/sbin/apache2 -k start
+www-data 24648  0.0  0.0 441608  8836 ?        Sl   11:37   0:00 /usr/sbin/apache2 -k start
+stack    24784  0.0  0.0  21036  4888 pts/29   Ss   11:37   0:00 /bin/bash
+root     24803  0.0  0.0  64192  2084 pts/29   S+   11:37   0:00 sudo tail -f /var/log/apache2/horizon_error.log
+root     24805  0.0  0.0   4384   364 pts/29   S+   11:37   0:00 tail -f /var/log/apache2/horizon_error.log
+root     25890  0.0  0.0      0     0 ?        S<   11:39   0:00 [loop0]
+root     25968  0.0  0.0      0     0 ?        S    11:40   0:00 [kworker/u16:0]
+stack    26258  0.0  0.0  21036  4888 pts/30   Ss   11:40   0:00 /bin/bash
+stack    26277  0.4  0.1 140084 64704 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26286  0.0  0.0  21036  4892 pts/31   Ss   11:40   0:00 /bin/bash
+stack    26301  0.1  0.2 229332 68100 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26302  0.0  0.1 140084 61932 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26303  0.0  0.2 228052 66892 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26304  0.0  0.2 228308 67060 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26305  0.0  0.2 227540 66396 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26306  0.0  0.2 227796 66588 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26307  0.0  0.2 228308 67208 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26308  0.0  0.2 229076 67772 pts/30   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-registry --config-file=/etc/glance/glance-registry.conf
+stack    26309  0.0  0.0  31124  1128 pts/6    S+   11:40   0:00 screen -x stack
+stack    26319  1.2  0.2 166264 71800 pts/31   S+   11:40   0:01 /usr/bin/python /usr/local/bin/glance-api --config-file=/etc/glance/glance-api.conf
+stack    26326  0.0  0.2 166264 68188 pts/31   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-api --config-file=/etc/glance/glance-api.conf
+stack    26327  0.0  0.2 166264 68640 pts/31   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-api --config-file=/etc/glance/glance-api.conf
+stack    26328  0.0  0.2 167288 70536 pts/31   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-api --config-file=/etc/glance/glance-api.conf
+stack    26329  0.6  0.2 167544 70664 pts/31   S+   11:40   0:00 /usr/bin/python /usr/local/bin/glance-api --config-file=/etc/glance/glance-api.conf
+stack    26443  0.0  0.0  21040  4900 pts/32   Ss   11:40   0:00 /bin/bash
+stack    26463  2.1  0.2 188016 85504 pts/32   S+   11:40   0:02 /usr/bin/python /usr/local/bin/nova-api
+stack    26470  0.0  0.1 152528 48092 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26471  0.0  0.1 152528 48092 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26472  0.0  0.1 152528 48092 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26473  0.0  0.1 152528 48092 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26478  0.6  0.3 311680 116044 pts/32  S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26479  0.6  0.3 310764 115124 pts/32  S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26480  0.3  0.2 198100 92544 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26481  0.7  0.3 311752 115996 pts/32  S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26488  0.0  0.2 188016 81420 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26489  0.0  0.2 188016 81420 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26490  0.0  0.2 188016 81420 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26491  0.0  0.2 188016 81420 pts/32   S+   11:40   0:00 /usr/bin/python /usr/local/bin/nova-api
+stack    26515  0.0  0.0  21040  4900 pts/33   Ss   11:40   0:00 /bin/bash
+stack    26535  2.1  0.2 236992 69104 pts/33   S+   11:41   0:02 python /usr/local/bin/neutron-server --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini
+stack    26563  0.0  0.0  21040  4900 pts/34   Ss   11:41   0:00 /bin/bash
+stack    26584  1.0  0.1 111948 34796 pts/34   S+   11:41   0:01 python /usr/local/bin/neutron-openvswitch-agent --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini
+stack    26593  0.0  0.0  21040  4900 pts/35   Ss   11:41   0:00 /bin/bash
+stack    26726  0.5  0.1 116032 38804 pts/35   S+   11:41   0:00 python /usr/local/bin/neutron-dhcp-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/dhcp_agent.ini
+stack    26742  0.0  0.0  21040  4900 pts/36   Ss   11:41   0:00 /bin/bash
+root     26822  0.0  0.0  64192  2096 pts/34   S+   11:41   0:00 sudo /usr/local/bin/neutron-rootwrap /etc/neutron/rootwrap.conf ovsdb-client monitor Interface name,ofport --format=json
+root     26824  0.1  0.0  47108 13204 pts/34   S+   11:41   0:00 /usr/bin/python /usr/local/bin/neutron-rootwrap /etc/neutron/rootwrap.conf ovsdb-client monitor Interface name,ofport --format=json
+root     26830  0.0  0.0  17420  1596 pts/34   S+   11:41   0:00 /usr/bin/ovsdb-client monitor Interface name,ofport --format=json
+stack    26839  0.8  0.1 119760 42708 pts/36   S+   11:41   0:00 python /usr/local/bin/neutron-l3-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/l3_agent.ini
+stack    26848  0.0  0.0  21040  4904 pts/37   Ss   11:41   0:00 /bin/bash
+stack    26906  0.5  0.1 122904 41436 pts/37   S+   11:41   0:00 python /usr/local/bin/neutron-metadata-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/metadata_agent.ini
+stack    26927  0.0  0.1 208568 40948 pts/37   S+   11:41   0:00 python /usr/local/bin/neutron-metadata-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/metadata_agent.ini
+stack    26928  0.0  0.1 208568 40948 pts/37   S+   11:41   0:00 python /usr/local/bin/neutron-metadata-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/metadata_agent.ini
+stack    26929  0.0  0.1 208568 40948 pts/37   S+   11:41   0:00 python /usr/local/bin/neutron-metadata-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/metadata_agent.ini
+stack    26930  0.0  0.1 208568 40948 pts/37   S+   11:41   0:00 python /usr/local/bin/neutron-metadata-agent --config-file /etc/neutron/neutron.conf --config-file=/etc/neutron/metadata_agent.ini
+stack    27198  0.0  0.0  21040  4904 pts/38   Ss   11:41   0:00 /bin/bash
+root     27216  0.0  0.0  95676 28752 ?        S    11:41   0:00 /usr/bin/python /usr/local/bin/neutron-ns-metadata-proxy --pid_file=/opt/stack/data/neutron/external/pids/d631f65a-3941-4189-9ffa-f8fac628fb9d.pid --metadata_proxy_socket=/opt/stack/data/neutron/metadata_proxy --router_id=d631f65a-3941-4189-9ffa-f8fac628fb9d --state_path=/opt/stack/data/neutron --metadata_port=9697 --debug --verbose
+root     27377  0.0  0.0  15060  1008 pts/38   S+   11:41   0:00 sg libvirtd /usr/local/bin/nova-compute --config-file /etc/nova/nova.conf
+stack    27381  1.3  0.1 1765736 61836 pts/38  Sl+  11:41   0:01 /usr/bin/python /usr/local/bin/nova-compute --config-file /etc/nova/nova.conf
+stack    27390  0.0  0.0  21040  4900 pts/39   Ss   11:41   0:00 /bin/bash
+stack    27577  1.8  0.1 140324 46036 pts/39   S+   11:41   0:01 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27592  0.0  0.0  21040  4904 pts/40   Ss   11:41   0:00 /bin/bash
+stack    27657  0.8  0.2 259344 72068 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27658  0.8  0.2 259772 72492 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27659  0.8  0.2 260564 73204 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27660  0.8  0.2 260992 73624 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27661  0.8  0.2 260084 72776 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27664  0.8  0.2 259764 72292 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27665  0.8  0.2 260472 73132 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27666  0.8  0.2 260084 72736 pts/39   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-conductor --config-file /etc/nova/nova.conf
+stack    27736  1.6  0.2 258032 73312 pts/40   S+   11:41   0:01 /usr/bin/python /usr/local/bin/nova-cert --config-file /etc/nova/nova.conf
+stack    27748  0.0  0.0  21040  4900 pts/41   Ss   11:41   0:00 /bin/bash
+stack    27793  1.6  0.2 258756 73904 pts/41   S+   11:41   0:01 /usr/bin/python /usr/local/bin/nova-scheduler --config-file /etc/nova/nova.conf
+stack    27808  0.0  0.0  21040  4904 pts/42   Ss   11:41   0:00 /bin/bash
+stack    27838  0.9  0.1 136876 42740 pts/42   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-xvpvncproxy --config-file /etc/nova/nova.conf
+stack    27850  0.0  0.0  21040  4936 pts/43   Ss+  11:41   0:00 /bin/bash
+stack    27882  1.7  0.2 258292 73456 pts/43   S    11:41   0:01 /usr/bin/python /usr/local/bin/nova-consoleauth --config-file /etc/nova/nova.conf
+stack    27900  0.0  0.0  21040  4900 pts/44   Ss   11:41   0:00 /bin/bash
+stack    27932  1.0  0.1 136884 42792 pts/44   S+   11:41   0:00 /usr/bin/python /usr/local/bin/nova-objectstore --config-file /etc/nova/nova.conf
+root     27950  0.0  0.0  64496  3720 ?        Ss   11:41   0:00 tgtd
+root     27952  0.0  0.0  13128   380 ?        S    11:41   0:00 tgtd
+stack    27971  0.0  0.0  21040  4904 pts/45   Ss   11:41   0:00 /bin/bash
+stack    28002  1.7  0.1 164528 57560 pts/45   S+   11:41   0:01 /usr/bin/python /usr/local/bin/cinder-api --config-file /etc/cinder/cinder.conf
+stack    28011  0.5  0.1 258704 64684 pts/45   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-api --config-file /etc/cinder/cinder.conf
+stack    28012  0.2  0.1 170664 60736 pts/45   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-api --config-file /etc/cinder/cinder.conf
+stack    28013  0.4  0.1 258556 64720 pts/45   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-api --config-file /etc/cinder/cinder.conf
+stack    28014  0.0  0.1 164528 53684 pts/45   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-api --config-file /etc/cinder/cinder.conf
+stack    28027  0.0  0.0  21040  4904 pts/46   Ss   11:41   0:00 /bin/bash
+stack    28055  1.1  0.1 223988 51480 pts/46   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-scheduler --config-file /etc/cinder/cinder.conf
+stack    28067  0.0  0.0  21040  4900 pts/47   Ss   11:41   0:00 /bin/bash
+stack    28098  1.9  0.1 223492 51096 pts/47   S+   11:41   0:01 /usr/bin/python /usr/local/bin/cinder-volume --config-file /etc/cinder/cinder.conf
+stack    28123  0.2  0.1 224764 49796 pts/47   S+   11:41   0:00 /usr/bin/python /usr/local/bin/cinder-volume --config-file /etc/cinder/cinder.conf
+stack    28236  0.0  0.0  21040  4900 pts/48   Ss   11:42   0:00 /bin/bash
+stack    28267  3.1  0.1 254836 63244 pts/48   S+   11:42   0:01 python /opt/stack/heat/bin/heat-engine --config-file=/etc/heat/heat.conf
+stack    28276  0.0  0.0  21040  4900 pts/49   Ss   11:42   0:00 /bin/bash
+stack    28305  1.5  0.1 155528 48552 pts/49   S+   11:42   0:00 python /opt/stack/heat/bin/heat-api --config-file=/etc/heat/heat.conf
+stack    28314  0.0  0.0  21040  4904 pts/50   Ss   11:42   0:00 /bin/bash
+stack    28349  1.6  0.1 155200 48340 pts/50   S+   11:42   0:00 python /opt/stack/heat/bin/heat-api-cfn --config-file=/etc/heat/heat.conf
+stack    28358  0.0  0.0  21040  4904 pts/51   Ss   11:42   0:00 /bin/bash
+stack    28387  1.7  0.1 155196 48144 pts/51   S+   11:42   0:00 python /opt/stack/heat/bin/heat-api-cloudwatch --config-file=/etc/heat/heat.conf
+root     28746  0.0  0.0  71240  2156 pts/9    T    Dec29   0:00 sudo nano copygit.sh
+root     28747  0.0  0.0  19672  2936 pts/9    T    Dec29   0:00 nano copygit.sh
+root     29957  0.0  0.0  64192  2096 pts/34   S+   11:43   0:00 sudo /usr/local/bin/neutron-rootwrap /etc/neutron/rootwrap.conf ovs-ofctl dump-flows br-int table=23
+root     29958  0.0  0.0  40048  9972 pts/34   R+   11:43   0:00 /usr/bin/python /usr/local/bin/neutron-rootwrap /etc/neutron/rootwrap.conf ovs-ofctl dump-flows br-int table=23
+stack    29960  0.0  0.0  24684  6100 pts/9    S+   11:43   0:00 python /home/ericsson/devstack/tools/worlddump.py
+stack    29963  0.0  0.0   4444   652 pts/9    S+   11:43   0:00 sh -c ps auxw
+stack    29964  0.0  0.0  15568  1168 pts/9    R+   11:43   0:00 ps auxw
+root     31749  0.0  0.0      0     0 ?        S    11:14   0:00 [kworker/u16:1]
+

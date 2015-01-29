@@ -1,0 +1,17 @@
+# you can source this file
+export EC2_ACCESS_KEY="5c6147b111c948a39412acbb4c6522af"
+export EC2_SECRET_KEY="d754dc9c45264e13a7ed7eab8262b550"
+export EC2_URL="http://100.96.9.19:8773/services/Cloud"
+export S3_URL="http://100.96.9.19:3333"
+# OpenStack USER ID = 9049309cd1b14c2e9e35ac56f3be28a8
+export OS_USERNAME="admin"
+# OpenStack Tenant ID = fc6838aa31624eecbd6162796da0568f
+export OS_TENANT_NAME="demo"
+export OS_AUTH_URL="http://100.96.9.19:35357/v2.0"
+export OS_CACERT=""
+export EC2_CERT="/home/ericsson/devstack/accrc/demo/admin-cert.pem"
+export EC2_PRIVATE_KEY="/home/ericsson/devstack/accrc/demo/admin-pk.pem"
+export EC2_USER_ID=42 #not checked by nova (can be a 12-digit id)
+export EUCALYPTUS_CERT="/home/ericsson/devstack/accrc/cacert.pem"
+export NOVA_CERT="/home/ericsson/devstack/accrc/cacert.pem"
+export OS_PASSWORD="password"

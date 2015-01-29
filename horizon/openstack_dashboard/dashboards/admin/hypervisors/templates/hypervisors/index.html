@@ -30,6 +30,13 @@
          {% blocktrans with used=stats.local_gb_used|diskgbformat available=stats.local_gb|diskgbformat %}Used <span> {{ used }} </span> of <span> {{ available }} </span>{% endblocktrans %}
      </strong>
     </div>
+
+    <div class="d3_quota_bar">
+    <div class="d3_pie_chart_usage" data-used="{% widthratio stats.curr_freq stats.max_freq 100 %}"></div>
+     <strong>{% trans "Frequency Usage" %} <br />
+         {% blocktrans with used=stats.curr_freq|freq_ghz_format available=stats.max_freq|freq_ghz_format %}Used <span> {{ used }} </span> of <span> {{ available }} </span>{% endblocktrans %}
+     </strong>
+    </div>
 </div>
 <div class="row-fluid">
   <div class="col-sm-12">

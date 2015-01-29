@@ -1,0 +1,287 @@
+
+File System Summary
+===================
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       886G  8.2G  832G   1% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev             16G  4.0K   16G   1% /dev
+tmpfs           3.2G  1.3M  3.2G   1% /run
+none            5.0M     0  5.0M   0% /run/lock
+none             16G  208K   16G   1% /run/shm
+none            100M   40K  100M   1% /run/user
+/dev/sda1       511M  3.4M  508M   1% /boot/efi
+
+
+Process Listing
+===============
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  34168  3472 ?        Ss   09:01   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    09:01   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    09:01   0:04 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    09:01   0:02 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    09:01   0:01 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    09:01   0:01 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    09:01   0:01 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    09:01   0:01 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    09:01   0:01 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    09:01   0:00 [rcu_bh]
+root        17  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/0]
+root        18  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/1]
+root        19  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/2]
+root        20  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/3]
+root        21  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/4]
+root        22  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/5]
+root        23  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/6]
+root        24  0.0  0.0      0     0 ?        S    09:01   0:00 [rcuob/7]
+root        25  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/0]
+root        26  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/0]
+root        27  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/1]
+root        28  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/1]
+root        29  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/1]
+root        31  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/1:0H]
+root        32  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/2]
+root        33  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/2]
+root        34  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/2]
+root        36  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/2:0H]
+root        37  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/3]
+root        38  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/3]
+root        39  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/3]
+root        41  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/3:0H]
+root        42  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/4]
+root        43  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/4]
+root        44  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/4]
+root        45  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/4:0]
+root        46  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/4:0H]
+root        47  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/5]
+root        48  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/5]
+root        49  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/5]
+root        51  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/5:0H]
+root        52  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/6]
+root        53  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/6]
+root        54  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/6]
+root        55  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/6:0]
+root        56  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/6:0H]
+root        57  0.0  0.0      0     0 ?        S    09:01   0:00 [watchdog/7]
+root        58  0.0  0.0      0     0 ?        S    09:01   0:00 [migration/7]
+root        59  0.0  0.0      0     0 ?        S    09:01   0:00 [ksoftirqd/7]
+root        60  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/7:0]
+root        61  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/7:0H]
+root        62  0.0  0.0      0     0 ?        S<   09:01   0:00 [khelper]
+root        63  0.0  0.0      0     0 ?        S    09:01   0:00 [kdevtmpfs]
+root        64  0.0  0.0      0     0 ?        S<   09:01   0:00 [netns]
+root        65  0.0  0.0      0     0 ?        S<   09:01   0:00 [writeback]
+root        66  0.0  0.0      0     0 ?        S<   09:01   0:00 [kintegrityd]
+root        67  0.0  0.0      0     0 ?        S<   09:01   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/u17:0]
+root        69  0.0  0.0      0     0 ?        S<   09:01   0:00 [kblockd]
+root        70  0.0  0.0      0     0 ?        S<   09:01   0:00 [ata_sff]
+root        71  0.0  0.0      0     0 ?        S    09:01   0:00 [khubd]
+root        72  0.0  0.0      0     0 ?        S<   09:01   0:00 [md]
+root        73  0.0  0.0      0     0 ?        S<   09:01   0:00 [devfreq_wq]
+root        74  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/2:1]
+root        75  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/1:1]
+root        77  0.0  0.0      0     0 ?        S    09:01   0:00 [khungtaskd]
+root        78  0.0  0.0      0     0 ?        S    09:01   0:00 [kswapd0]
+root        79  0.0  0.0      0     0 ?        SN   09:01   0:00 [ksmd]
+root        80  0.0  0.0      0     0 ?        SN   09:01   0:00 [khugepaged]
+root        81  0.0  0.0      0     0 ?        S    09:01   0:00 [fsnotify_mark]
+root        82  0.0  0.0      0     0 ?        S    09:01   0:00 [ecryptfs-kthrea]
+root        83  0.0  0.0      0     0 ?        S<   09:01   0:00 [crypto]
+root        95  0.0  0.0      0     0 ?        S<   09:01   0:00 [kthrotld]
+root        97  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/2:2]
+root        98  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/3:1]
+root        99  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/5:1]
+root       118  0.0  0.0      0     0 ?        S<   09:01   0:00 [deferwq]
+root       119  0.0  0.0      0     0 ?        S<   09:01   0:00 [charger_manager]
+root       121  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/4:1]
+root       176  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_0]
+root       177  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_1]
+root       178  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_2]
+root       179  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_3]
+root       180  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_4]
+root       181  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_5]
+root       182  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_6]
+root       183  0.0  0.0      0     0 ?        S    09:01   0:00 [scsi_eh_7]
+root       191  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/7:1]
+root       193  0.0  0.0      0     0 ?        S<   09:01   0:00 [kpsmoused]
+root       194  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/6:2]
+root       195  0.0  0.0      0     0 ?        S    09:01   0:13 [kworker/0:1]
+root       241  0.0  0.0      0     0 ?        S<   09:01   0:00 [bioset]
+root       250  0.0  0.0      0     0 ?        S<   09:01   0:00 [kworker/u17:1]
+root       251  0.0  0.0      0     0 ?        S    09:01   0:00 [jbd2/sda2-8]
+root       252  0.0  0.0      0     0 ?        S<   09:01   0:00 [ext4-rsv-conver]
+root       421  0.0  0.0  19608   916 ?        S    09:01   0:00 upstart-udev-bridge --daemon
+root       427  0.0  0.0  51732  1984 ?        Ss   09:01   0:00 /lib/systemd/systemd-udevd --daemon
+root       585  0.0  0.0      0     0 ?        S<   09:01   0:00 [kmpathd]
+root       586  0.0  0.0      0     0 ?        S<   09:01   0:00 [kmpath_handlerd]
+root       597  0.0  0.0      0     0 ?        S    09:01   0:00 [irq/64-mei_me]
+root       656  0.0  0.0  15408   716 ?        S    09:01   0:00 upstart-file-bridge --daemon
+root       673  0.0  0.0      0     0 ?        S<   09:01   0:00 [cfg80211]
+root       712  0.0  0.0      0     0 ?        S<   09:01   0:00 [kvm-irqfd-clean]
+root       715  0.0  0.0      0     0 ?        S<   09:01   0:00 [led_workqueue]
+root       727  0.0  0.0      0     0 ?        S<   09:01   0:00 [hd-audio0]
+syslog     758  0.0  0.0 255844  1920 ?        Ssl  09:01   0:00 rsyslogd
+root       813  0.0  0.0  15260   624 ?        S    09:01   0:00 upstart-socket-bridge --daemon
+message+   901  0.0  0.0  40180  2328 ?        Ss   09:01   0:00 dbus-daemon --system --fork
+root       920  0.0  0.0 330232  4412 ?        Ssl  09:01   0:00 /usr/sbin/ModemManager
+root       950  0.0  0.0  43452  1924 ?        Ss   09:01   0:00 /lib/systemd/systemd-logind
+avahi      953  0.0  0.0  32608  1956 ?        S    09:01   0:00 avahi-daemon: running [allinone.local]
+avahi      958  0.0  0.0  32224   464 ?        S    09:01   0:00 avahi-daemon: chroot helper
+root       961  0.0  0.0  19292  1484 ?        Ss   09:01   0:00 /usr/sbin/bluetoothd
+root      1006  0.0  0.0      0     0 ?        S<   09:01   0:00 [krfcommd]
+root      1220  0.0  0.0 345052  6312 ?        Ssl  09:01   0:00 NetworkManager
+root      1229  0.0  0.2 287784 73288 ?        Ssl  09:01   0:01 /sbin/zfs-fuse --pidfile /var/run/zfs-fuse.pid
+stack     1254  0.3  0.0  21952  7064 pts/14   S+   13:30   0:00 bash ./stack.sh
+root      1342  0.0  0.0 280948  6992 ?        Sl   09:01   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1358  0.0  0.0      0     0 ?        S<   09:01   0:00 [iscsi_eh]
+root      1370  0.0  0.0      0     0 ?        S<   09:01   0:00 [ib_addr]
+stack     1450  0.0  0.0  18004  1992 pts/14   S+   13:30   0:00 bash ./stack.sh
+stack     1451  0.0  0.0  24684  6024 pts/14   S+   13:30   0:00 python /home/ericsson/devstack/tools/outfilter.py -v
+root      1534  0.0  0.0      0     0 ?        S<   09:01   0:00 [ib_mcast]
+root      1535  0.0  0.0      0     0 ?        S<   09:01   0:00 [ib_cm]
+root      1536  0.0  0.0      0     0 ?        S<   09:01   0:00 [iw_cm_wq]
+root      1537  0.0  0.0      0     0 ?        S<   09:01   0:00 [rdma_cm]
+root      1542  0.0  0.0   5264   492 ?        Ss   09:01   0:00 /usr/sbin/iscsid
+root      1544  0.0  0.0   5764  3560 ?        S<Ls 09:01   0:01 /usr/sbin/iscsid
+root      1628  0.0  0.0  20016   968 tty4     Ss+  09:01   0:00 /sbin/getty -8 38400 tty4
+root      1633  0.0  0.0  20016   956 tty5     Ss+  09:01   0:00 /sbin/getty -8 38400 tty5
+root      1643  0.0  0.0  20016   956 tty2     Ss+  09:01   0:00 /sbin/getty -8 38400 tty2
+root      1644  0.0  0.0  20016   964 tty3     Ss+  09:01   0:00 /sbin/getty -8 38400 tty3
+root      1648  0.0  0.0  20016   964 tty6     Ss+  09:01   0:00 /sbin/getty -8 38400 tty6
+root      1686  0.0  0.0  75352  3408 ?        Ss   09:01   0:00 /usr/sbin/cups-browsed
+root      1695  0.0  0.0   4368   708 ?        Ss   09:01   0:01 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1704  0.0  0.0  23656  1032 ?        Ss   09:01   0:00 cron
+root      1727  0.0  0.0  30608  2340 ?        Ss   09:01   0:02 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1740  0.0  0.0  61364  3072 ?        Ss   09:01   0:00 /usr/sbin/sshd -D
+root      1905  0.0  0.0      0     0 ?        S    13:31   0:00 [kworker/u16:1]
+root      1906  0.0  0.0  19264   768 ?        Ss   09:02   0:00 /usr/sbin/irqbalance
+root      1915  0.0  0.0  10232  3732 ?        S    09:02   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth2.pid -lf /var/lib/NetworkManager/dhclient-d302f771-ca42-4a24-af48-7200d1c32554-eth2.lease -cf /var/lib/NetworkManager/dhclient-eth2.conf eth2
+stack     1941  0.0  0.0  24684  6104 pts/14   S+   13:31   0:00 python /home/ericsson/devstack/tools/worlddump.py
+stack     1944  0.0  0.0   4444   656 pts/14   S+   13:31   0:00 sh -c ps auxw
+stack     1945  0.0  0.0  15568  1152 pts/14   R+   13:31   0:00 ps auxw
+nobody    1991  0.0  0.0  35224  1536 ?        S    09:02   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+whoopsie  1997  0.0  0.0 361292  5208 ?        Ssl  09:02   0:00 whoopsie
+kernoops  2034  0.0  0.0  37144  1012 ?        Ss   09:02   0:00 /usr/sbin/kerneloops
+root      2100  0.0  0.0      0     0 ?        S    09:02   0:00 [kauditd]
+rabbitmq  2244  0.0  0.0   7496   320 ?        S    09:02   0:00 /usr/lib/erlang/erts-5.10.4/bin/epmd -daemon
+rabbitmq  2411  0.0  0.0   4444   652 ?        S    09:02   0:00 /bin/sh /usr/sbin/rabbitmq-server
+rabbitmq  2462  0.6  0.1 2277728 62060 ?       Sl   09:02   1:37 /usr/lib/erlang/erts-5.10.4/bin/beam.smp -W w -K true -A30 -P 1048576 -- -root /usr/lib/erlang -progname erl -- -home /var/lib/rabbitmq -- -pa /usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../ebin -noshell -noinput -s rabbit boot -sname rabbit@allinone -boot start_sasl -kernel inet_default_connect_options [{nodelay,true}] -sasl errlog_type error -sasl sasl_error_logger false -rabbit error_logger {file,"/var/log/rabbitmq/rabbit@allinone.log"} -rabbit sasl_error_logger {file,"/var/log/rabbitmq/rabbit@allinone-sasl.log"} -rabbit enabled_plugins_file "/etc/rabbitmq/enabled_plugins" -rabbit plugins_dir "/usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../plugins" -rabbit plugins_expand_dir "/var/lib/rabbitmq/mnesia/rabbit@allinone-plugins-expand" -os_mon start_cpu_sup false -os_mon start_disksup false -os_mon start_memsup false -mnesia dir "/var/lib/rabbitmq/mnesia/rabbit@allinone"
+root      2701  0.0  0.0 277856  3692 ?        Ssl  09:02   0:00 lightdm
+libvirt+  2732  0.0  0.0  28208  1012 ?        S    09:02   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf
+root      2736  0.0  0.0 287472  4268 ?        Sl   09:02   0:00 /usr/lib/accountsservice/accounts-daemon
+root      2766  1.0  0.3 546344 102748 tty7    Ssl+ 09:02   2:43 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      2813  0.0  0.0 168304  3696 ?        Sl   09:02   0:00 lightdm --session-child 12 15
+ericsson  2832  0.0  0.0  40320  2660 ?        Ss   09:02   0:00 init --user
+rabbitmq  2878  0.0  0.0   7460   428 ?        Ss   09:02   0:00 inet_gethost 4
+rabbitmq  2879  0.0  0.0   9556   644 ?        S    09:02   0:00 inet_gethost 4
+ericsson  2991  0.0  0.0  40192  2368 ?        Ss   09:02   0:07 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-2IKpWKuoXk
+ericsson  3000  0.0  0.0  22300  1156 ?        Ss   09:02   0:00 upstart-event-bridge
+ericsson  3003  0.0  0.0  78200  4624 ?        Ss   09:02   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ericsson  3018  0.0  0.0 223148  3760 ?        Sl   09:02   0:00 gnome-keyring-daemon --start
+ericsson  3021  0.0  0.0  22308   636 ?        S    09:02   0:02 upstart-dbus-bridge --daemon --session --user --bus-name session
+ericsson  3023  0.0  0.0  30784   464 ?        S    09:02   0:00 upstart-file-bridge --daemon --user
+ericsson  3025  0.0  0.0  22308   392 ?        S    09:02   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ericsson  3026  0.1  0.0 290564  7092 ?        Ssl  09:02   0:22 /usr/bin/ibus-daemon --daemonize --xim
+ericsson  3047  0.0  0.0 813472 22000 ?        Ssl  09:02   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ericsson  3054  0.0  0.0 678144 22844 ?        Ssl  09:02   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ericsson  3056  0.0  0.0 337568  3460 ?        Ssl  09:02   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ericsson  3057  0.0  0.0 575412 17260 ?        Ssl  09:02   0:00 gnome-session --session=ubuntu
+ericsson  3061  0.0  0.0 572212 19392 ?        Ssl  09:02   0:15 /usr/lib/unity/unity-panel-service
+ericsson  3063  0.0  0.0  39248  2012 ?        S    09:02   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ericsson  3068  0.0  0.0 270372  3424 ?        Sl   09:02   0:00 /usr/lib/gvfs/gvfsd
+ericsson  3078  0.0  0.0 280876  3464 ?        Sl   09:02   0:00 /usr/lib/ibus/ibus-dconf
+ericsson  3079  0.0  0.0 480152 18688 ?        Sl   09:02   0:05 /usr/lib/ibus/ibus-ui-gtk3
+ericsson  3084  0.0  0.0 386828  7336 ?        Sl   09:02   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ericsson  3248  0.0  0.0 345664  3144 ?        Sl   09:02   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+root      3255  0.0  0.0  20016   968 tty1     Ss+  09:02   0:00 /sbin/getty -8 38400 tty1
+ericsson  3270  0.0  0.0 548620 12128 ?        Sl   09:02   0:02 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ericsson  3277  0.0  0.0 124912  3320 ?        Sl   09:02   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      3301  0.0  0.0      0     0 ?        S    09:03   0:00 [kworker/5:2]
+root      3304  0.0  0.0 239340  4516 ?        Sl   09:03   0:00 /usr/lib/upower/upowerd
+ericsson  3320  0.0  0.0 373752  6288 ?        S<l  09:03   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     3322  0.0  0.0 168916  1308 ?        SNl  09:03   0:00 /usr/lib/rtkit/rtkit-daemon
+ericsson  3421  0.0  0.0 520556 15096 ?        Sl   09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ericsson  3423  0.0  0.0 335080  3016 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ericsson  3476  0.0  0.0 263632  2948 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ericsson  3484  0.0  0.0 278444  3400 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ericsson  3526  0.0  0.0 1162420 11220 ?       Ssl  09:03   0:05 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ericsson  3535  0.0  0.0 479356  5680 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ericsson  3536  0.0  0.0 446724 11596 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ericsson  3537  0.0  0.0 893720  5996 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ericsson  3552  0.0  0.0 286748  5036 ?        Ssl  09:03   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ericsson  3588  0.0  0.0 205152  3560 ?        Sl   09:03   0:03 /usr/lib/ibus/ibus-engine-simple
+ericsson  3603  0.0  0.0 767656 12580 ?        Sl   09:03   0:00 /usr/lib/evolution/evolution-source-registry
+ericsson  3609  0.0  0.0 340360 10116 ?        Sl   09:03   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+ericsson  3614  0.8  0.3 1575772 130096 ?      Sl   09:03   2:14 compiz
+colord    3650  0.0  0.0 301484  5744 ?        Sl   09:03   0:00 /usr/lib/colord/colord
+ericsson  3652  0.0  0.0 178308  4760 ?        Sl   09:03   0:00 /usr/lib/dconf/dconf-service
+ericsson  3701  0.0  0.1 1073740 43996 ?       Sl   09:03   0:00 /usr/lib/evolution/evolution-calendar-factory
+ericsson  3759  0.0  0.0 403300  9376 ?        Sl   09:03   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ericsson  3763  0.0  0.0 331704  9524 ?        Sl   09:03   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ericsson  3766  0.0  0.0 590888 17952 ?        Sl   09:03   0:00 nm-applet
+ericsson  3770  0.0  0.1 895612 39272 ?        Sl   09:03   0:01 nautilus -n
+ericsson  3778  0.0  0.0 298836  4944 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      3785  0.0  0.0 371280  5240 ?        Sl   09:03   0:01 /usr/lib/udisks2/udisksd --no-debug
+ericsson  3796  0.0  0.0 212440  3412 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ericsson  3802  0.0  0.0 200276  2860 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ericsson  3806  0.0  0.0 285964  3352 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ericsson  3808  0.0  0.0  58152  3672 ?        S    09:03   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ericsson  3819  0.0  0.0 270376  3064 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ericsson  3827  0.0  0.0 433140  5880 ?        Sl   09:03   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ericsson  3875  0.0  0.0 455100 14056 ?        Sl   09:03   0:00 telepathy-indicator
+ericsson  3880  0.0  0.0 322472  7292 ?        Sl   09:03   0:00 /usr/lib/telepathy/mission-control-5
+ericsson  3893  0.0  0.0 516748 11440 ?        Sl   09:03   0:00 zeitgeist-datahub
+ericsson  3898  0.0  0.0 348992  5196 ?        Sl   09:03   0:00 /usr/bin/zeitgeist-daemon
+ericsson  3904  0.0  0.0 253212 11172 ?        Sl   09:03   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ericsson  3929  0.0  0.0  11412   620 ?        S    09:03   0:00 /bin/cat
+ericsson  3956  0.3  0.0 654624 24560 ?        Sl   09:04   1:01 gnome-terminal
+ericsson  3963  0.0  0.0  14824   840 ?        S    09:04   0:00 gnome-pty-helper
+ericsson  3964  0.0  0.0  39364 16188 pts/0    Ss+  09:04   0:00 bash
+ericsson  4026 11.2  4.0 2371372 1309208 ?     Rl   09:04  30:07 /usr/lib/firefox/firefox
+ericsson  4055  0.0  0.0 256988  4752 ?        Sl   09:04   0:00 /usr/lib/libunity-webapps/unity-webapps-service
+ericsson  4067  0.0  0.0 570548 15888 ?        Sl   09:04   0:00 update-notifier
+ericsson  4153  0.0  0.0 377732  4148 ?        Sl   09:05   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      6193  0.0  0.0  19416   968 ?        Ss   09:14   0:00 /usr/sbin/conntrackd -d -C /etc/conntrackd/conntrackd.conf
+root      6267  0.0  0.0  76852  3684 ?        Ss   09:14   0:00 /usr/sbin/cupsd -f
+lp        6270  0.0  0.0  63156  1984 ?        S    09:14   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+ericsson  7350  0.0  0.0  28080  5192 pts/6    Ss   09:26   0:00 bash
+ericsson  7853  0.0  0.0 124444  2764 ?        Sl   09:43   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      8671  0.0  0.0  71240  2180 pts/6    S    10:12   0:00 sudo su stack
+root      8672  0.0  0.0  70820  1828 pts/6    S    10:12   0:00 su stack
+stack     8673  0.0  0.0  28320  5452 pts/6    S+   10:12   0:00 bash
+root      8676  0.0  0.0      0     0 ?        S    10:12   0:00 [kworker/3:2]
+root      8679  0.0  0.0      0     0 ?        S    10:12   0:00 [kworker/1:2]
+root     10213  0.1  0.0  41708  1264 ?        Ssl  10:22   0:16 /usr/sbin/cpufreqd -f /etc/cpufreqd.conf
+ericsson 11016  0.0  0.0 742524 17200 ?        Sl   10:32   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ericsson 11029  0.0  0.0 663660 23640 ?        Sl   10:32   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ericsson 11033  0.0  0.0 561276 10668 ?        Sl   10:32   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ericsson 11035  0.0  0.0 345964  8736 ?        Sl   10:32   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+ericsson 11095  0.0  0.0 809360 12340 ?        Sl   10:32   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+root     11476  0.0  0.0  71240  2164 pts/6    T    10:45   0:00 sudo nano freqset.sh
+root     11477  0.0  0.0  19672  2936 pts/6    T    10:45   0:00 nano freqset.sh
+ericsson 11594  0.0  0.0  28056  4936 pts/9    Ss   10:49   0:00 bash
+ericsson 11637  0.5  0.0  29296  1828 pts/9    S+   10:49   0:51 top -d 1
+root     13001  0.0  0.0      0     0 ?        S    11:51   0:02 [kworker/u16:3]
+ericsson 13086  0.0  0.0  28152  5264 pts/11   Ss+  11:56   0:00 bash
+ericsson 14071  0.0  0.0   4444   720 ?        S    12:39   0:00 /bin/sh /usr/share/pycharm/bin/pycharm.sh
+ericsson 14120  2.8  1.4 6058052 458896 ?      Sl   12:39   1:29 /usr/lib/jvm/java-7-openjdk-amd64/bin/java -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djsse.enableSNIExtension=false -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/usr/share/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/home/ericsson/java_error_in_PYCHARM_%p.log -Xbootclasspath/a:/usr/share/pycharm/lib/boot.jar -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true -Djb.restart.code=88 com.intellij.idea.Main
+ericsson 14162  0.0  0.0  28068  5188 pts/14   Ss   12:39   0:00 bash
+ericsson 14206  0.0  0.0   5456  1748 ?        S    12:39   0:00 /usr/share/pycharm/bin/fsnotifier64
+root     14234  0.0  0.0  71480  2396 pts/14   S    12:40   0:00 sudo su stack
+root     14240  0.0  0.0  70820  1828 pts/14   S    12:40   0:00 su stack
+stack    14241  0.0  0.0  28176  5300 pts/14   S    12:40   0:00 bash
+root     18653  0.0  0.0      0     0 ?        S    12:41   0:00 [kworker/0:2]
+root     26656  0.0  0.0      0     0 ?        S    13:25   0:00 [kworker/u16:0]
+root     28686  0.0  0.0  20928   564 ?        S<s  13:27   0:00 ovsdb-server: monitoring pid 28687 (healthy)                                                                                                                                                                                                                                                                                                                                                        
+root     28687  0.0  0.0  21068  2092 ?        S<   13:27   0:00 ovsdb-server /etc/openvswitch/conf.db -vconsole:emer -vsyslog:err -vfile:info --remote=punix:/var/run/openvswitch/db.sock --private-key=db:Open_vSwitch,SSL,private_key --certificate=db:Open_vSwitch,SSL,certificate --bootstrap-ca-cert=db:Open_vSwitch,SSL,ca_cert --no-chdir --log-file=/var/log/openvswitch/ovsdb-server.log --pidfile=/var/run/openvswitch/ovsdb-server.pid --detach --monitor
+root     28696  0.0  0.0  21436   576 ?        S<s  13:27   0:00 ovs-vswitchd: monitoring pid 28697 (healthy)                                                                                                                                                                                    
+root     28697  0.0  0.1 537728 64464 ?        S<Ll 13:27   0:00 ovs-vswitchd unix:/var/run/openvswitch/db.sock -vconsole:emer -vsyslog:err -vfile:info --mlockall --no-chdir --log-file=/var/log/openvswitch/ovs-vswitchd.log --pidfile=/var/run/openvswitch/ovs-vswitchd.pid --detach --monitor
+root     30845  0.0  0.0 377164 12216 ?        Sl   13:27   0:00 /usr/sbin/libvirtd -d
+mysql    31961  0.2  0.2 550088 71128 ?        Ssl  13:27   0:00 /usr/sbin/mysqld
+

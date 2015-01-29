@@ -269,7 +269,8 @@ class CellStateManager(base.Base):
                     continue
                 host = service['host']
                 compute_hosts[host] = {
-                        'curr_freq': compute['curr_freq'],
+#                        'all_freq': compute['all_freq'],
+#                        'curr_freq': compute['curr_freq'],
                         'free_ram_mb': compute['free_ram_mb'],
                         'free_disk_mb': compute['free_disk_gb'] * 1024,
                         'total_ram_mb': compute['memory_mb'],

@@ -120,6 +120,7 @@ class HostState(object):
         self.disk_mb_used = 0
         self.all_freq = ''
         self.curr_freq = 0
+        self.max_freq = 0
         self.free_ram_mb = 0
         self.free_disk_mb = 0
         self.vcpus_total = 0
@@ -197,6 +198,7 @@ class HostState(object):
         # NOTE(jogo) free_ram_mb can be negative
         self.all_freq = compute.get('all_freq')
         self.curr_freq = compute['curr_freq']
+        self.max_freq = compute['max_freq']
         self.free_ram_mb = compute['free_ram_mb']
         self.total_usable_ram_mb = all_ram_mb
         self.total_usable_disk_gb = compute['local_gb']

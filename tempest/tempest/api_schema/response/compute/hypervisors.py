@@ -28,6 +28,7 @@ hypervisor_statistics = {
                     'free_disk_gb': {'type': 'integer'},
                     'all_freq': {'type': 'string'},
                     'curr_freq': {'type': 'integer'},
+                    'max_freq': {'type': 'integer'},
                     'free_ram_mb': {'type': 'integer'},
                     'local_gb': {'type': 'integer'},
                     'local_gb_used': {'type': 'integer'},
@@ -38,8 +39,8 @@ hypervisor_statistics = {
                     'vcpus_used': {'type': 'integer'}
                 },
                 'required': ['count', 'current_workload',
-                             'disk_available_least', 'free_disk_gb',
-                             'all_freq', 'curr_freq', 'free_ram_mb', 'local_gb', 'local_gb_used',
+                             'disk_available_least', 'free_disk_gb', 'all_freq', 'curr_freq', 'max_freq'
+                             'free_ram_mb', 'local_gb', 'local_gb_used',
                              'memory_mb', 'memory_mb_used', 'running_vms',
                              'vcpus', 'vcpus_used']
             }
@@ -68,6 +69,7 @@ common_list_hypervisors_detail = {
                         'free_disk_gb': {'type': 'integer'},
                         'all_freq': {'type': 'string'},
                         'curr_freq': {'type': 'integer'},
+                        'max_freq': {'type': 'integer'},
                         'free_ram_mb': {'type': 'integer'},
                         'hypervisor_hostname': {'type': 'string'},
                         'hypervisor_type': {'type': 'string'},
@@ -90,9 +92,9 @@ common_list_hypervisors_detail = {
                         'vcpus_used': {'type': 'integer'}
                     },
                     'required': ['cpu_info', 'current_workload',
-                                 'disk_available_least', 'host_ip',
-                                 'free_disk_gb', 'all_freq', 'curr_freq', 'free_ram_mb',
-                                 'hypervisor_hostname', 'hypervisor_type',
+                                 'disk_available_least', 'host_ip', 'free_disk_gb', 
+                                 'all_freq', 'curr_freq','max_freq' 
+                                 'free_ram_mb', 'hypervisor_hostname', 'hypervisor_type',
                                  'hypervisor_version', 'id', 'local_gb',
                                  'local_gb_used', 'memory_mb',
                                  'memory_mb_used', 'running_vms', 'service',
@@ -122,6 +124,7 @@ common_show_hypervisor = {
                     'free_disk_gb': {'type': 'integer'},
                     'all_freq': {'type': 'string'},
                     'curr_freq': {'type': 'integer'},
+                    'max_freq': {'type': 'integer'},
                     'free_ram_mb': {'type': 'integer'},
                     'hypervisor_hostname': {'type': 'string'},
                     'hypervisor_type': {'type': 'string'},
@@ -144,9 +147,9 @@ common_show_hypervisor = {
                     'vcpus_used': {'type': 'integer'}
                 },
                 'required': ['cpu_info', 'current_workload',
-                             'disk_available_least', 'host_ip',
-                             'free_disk_gb', 'all_freq', 'curr_freq', 'free_ram_mb',
-                             'hypervisor_hostname', 'hypervisor_type',
+                             'disk_available_least', 'host_ip', 'free_disk_gb', 
+                             'all_freq', 'curr_freq', 'max_freq'
+                             'free_ram_mb', 'hypervisor_hostname', 'hypervisor_type',
                              'hypervisor_version', 'id', 'local_gb',
                              'local_gb_used', 'memory_mb', 'memory_mb_used',
                              'running_vms', 'service', 'vcpus', 'vcpus_used']

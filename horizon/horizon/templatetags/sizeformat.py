@@ -91,3 +91,8 @@ def mb_float_format(mb):
 @register.filter(name='diskgbformat')
 def diskgbformat(gb):
     return float_cast_filesizeformat(gb, 1024 * 1024 * 1024, float_format)
+
+
+@register.filter(name='freq_ghz_format')
+def freq_ghz_format(khz):
+    return _("%.2fGHz") % float(khz / (1000.0 * 1000.0))

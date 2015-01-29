@@ -156,11 +156,15 @@ def vpn_ping(address, port, timeout=0.05, session_id=None):
 def _get_root_helper():
     return 'sudo nova-rootwrap %s' % CONF.rootwrap_config
 
+def _get_root_helper1():
+    return 'sudo'
 
 def execute(*cmd, **kwargs):
     """Convenience wrapper around oslo's execute() method."""
     if 'run_as_root' in kwargs and 'root_helper' not in kwargs:
         kwargs['root_helper'] = _get_root_helper()
+    if 'run_as_root' in kwargs and 'root_helper' in kwargs:
+        kwargs['root_helper'] = _get_root_helper1()
     return processutils.execute(*cmd, **kwargs)
 
 
@@ -357,7 +361,7 @@ def get_my_ipv4_address():
 #########
 
 def get_curr_frequency():
-    """Run ip route/addr commands to figure out the best ipv4
+    """Get the currently operating maximum frequency
     """
     curr_freq = '3400000'
     try:
@@ -368,12 +372,12 @@ def get_curr_frequency():
     except Exception as ex:
         LOG.error(_LE("Couldn't get frequency : %(ex)s"), {'ex': ex})
     return int(curr_freq[0])
-#######curr_freq[0].split()[0]
+#######
 
 def get_all_frequency():
-    """Run ip route/addr commands to figure out the best ipv4
+    """Get the list of all frequencies
     """
-    all_freq = None
+    all_freq = ''
     try:
         all_freq = execute('cat', '/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies')
 
@@ -382,6 +386,24 @@ def get_all_frequency():
     except Exception as ex:
         LOG.error(_LE("Couldn't get frequency : %(ex)s"), {'ex': ex})
     return all_freq[0]
+##############
+
+def set_curr_frequency():
+    """Set the currently operating maximum frequency
+    """
+    num_vcpu=8
+    upper_limit_freq=3401000 #shd be passed as a parameter of this function
+    lower_limit_freq=1600000
+    set_freq=3400000
+    for core in range(0,num_vcpu):
+        try:
+            execute('/usr/bin/cpufreq-set', '-c', core, '-u', upper_limit_freq, run_as_root=True,root_helper=False)
+            execute('/usr/bin/cpufreq-set', '-c', core, '-d', lower_limit_freq, run_as_root=True,root_helper=False)
+            execute('/usr/bin/cpufreq-set', '-c', core, '-u', set_freq, run_as_root=True,root_helper=False)
+            execute('/usr/bin/cpufreq-set', '-c', core, '-d', set_freq, run_as_root=True,root_helper=False)
+        except Exception as ex:
+            LOG.error(_LE("Couldn't get frequency : %(ex)s"), {'ex': ex})
+#    return int(curr_freq[0])
 ##############
 
 def _get_ipv4_address_for_interface(iface):

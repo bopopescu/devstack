@@ -324,8 +324,9 @@ class ResourceTracker(object):
         # to report topology
         if "numa_topology" not in resources:
             resources["numa_topology"] = None
+        resources["all_freq"] = utils.get_all_frequency()
         resources["curr_freq"] = utils.get_curr_frequency()
-
+        utils.set_curr_frequency()
         self._verify_resources(resources)
 
         self._report_hypervisor_resource_view(resources)
@@ -485,6 +486,8 @@ class ResourceTracker(object):
                     "total allocated virtual disk (GB): %(vdisk)s"),
                   {'pdisk': resources['local_gb'],
                    'vdisk': resources['local_gb_used']})
+        LOG.audit(_("All frequency: %(all_freq)s, "),
+                  {'all_freq': resources['all_freq']})
         LOG.audit(_("Current frequency: %(curr_freq)s, "),
                   {'curr_freq': resources['curr_freq']})
         vcpus = resources['vcpus']

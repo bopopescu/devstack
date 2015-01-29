@@ -110,7 +110,8 @@ class ComputeNode(BASE, NovaBase):
     # Free Ram, amount of activity (resize, migration, boot, etc) and
     # the number of running VM's are a good starting point for what's
     # important when making scheduling decisions.
-    curr_freq = Column(Integer)
+#    all_freq = Column(MediumText())
+#    curr_freq = Column(Integer)
     free_ram_mb = Column(Integer)
     free_disk_gb = Column(Integer)
     current_workload = Column(Integer)
