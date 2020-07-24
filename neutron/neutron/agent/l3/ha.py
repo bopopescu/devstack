@@ -182,7 +182,7 @@ class AgentMixin(object):
         pm = self._get_metadata_proxy_process_manager(ri.router_id, ri.ns_name)
         pid = pm.get_pid_file_name(ensure_pids_dir=True)
         ri.keepalived_manager.add_notifier(
-            callback(pid), 'master', ri.ha_vr_id)
+            callback(pid), 'main', ri.ha_vr_id)
         for state in ('backup', 'fault'):
             ri.keepalived_manager.add_notifier(
                 ['kill', '-%s' % signal.SIGKILL,

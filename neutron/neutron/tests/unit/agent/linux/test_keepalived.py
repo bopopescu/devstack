@@ -27,7 +27,7 @@ class KeepalivedConfBaseMixin(object):
         group1 = keepalived.KeepalivedGroup(1)
         group2 = keepalived.KeepalivedGroup(2)
 
-        group1.set_notify('master', '/tmp/script.sh')
+        group1.set_notify('main', '/tmp/script.sh')
 
         instance1 = keepalived.KeepalivedInstance('MASTER', 'eth0', 1,
                                                   advert_int=5)
@@ -86,7 +86,7 @@ class KeepalivedConfTestCase(base.BaseTestCase,
     group {
         VR_1
     }
-    notify_master "/tmp/script.sh"
+    notify_main "/tmp/script.sh"
 }
 vrrp_sync_group VG_2 {
     group {
@@ -181,7 +181,7 @@ class KeepalivedInstanceTestCase(base.BaseTestCase,
     group {
         VR_1
     }
-    notify_master "/tmp/script.sh"
+    notify_main "/tmp/script.sh"
 }
 vrrp_sync_group VG_2 {
     group {

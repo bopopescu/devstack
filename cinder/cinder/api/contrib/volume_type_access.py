@@ -46,7 +46,7 @@ class VolumeTypeTemplate(xmlutil.TemplateBuilder):
         make_volume_type(root)
         alias = Volume_type_access.alias
         namespace = Volume_type_access.namespace
-        return xmlutil.SlaveTemplate(root, 1, nsmap={alias: namespace})
+        return xmlutil.SubordinateTemplate(root, 1, nsmap={alias: namespace})
 
 
 class VolumeTypesTemplate(xmlutil.TemplateBuilder):
@@ -57,7 +57,7 @@ class VolumeTypesTemplate(xmlutil.TemplateBuilder):
         make_volume_type(elem)
         alias = Volume_type_access.alias
         namespace = Volume_type_access.namespace
-        return xmlutil.SlaveTemplate(root, 1, nsmap={alias: namespace})
+        return xmlutil.SubordinateTemplate(root, 1, nsmap={alias: namespace})
 
 
 class VolumeTypeAccessTemplate(xmlutil.TemplateBuilder):
@@ -66,7 +66,7 @@ class VolumeTypeAccessTemplate(xmlutil.TemplateBuilder):
         elem = xmlutil.SubTemplateElement(root, 'access',
                                           selector='volume_type_access')
         make_volume_type_access(elem)
-        return xmlutil.MasterTemplate(root, 1)
+        return xmlutil.MainTemplate(root, 1)
 
 
 def _marshall_volume_type_access(vol_type):
@@ -125,7 +125,7 @@ class VolumeTypeActionController(wsgi.Controller):
     def show(self, req, resp_obj, id):
         context = req.environ['cinder.context']
         if soft_authorize(context):
-            # Attach our slave template to the response object
+            # Attach our subordinate template to the response object
             resp_obj.attach(xml=VolumeTypeTemplate())
             vol_type = req.cached_resource_by_id(id, name='types')
             self._extend_vol_type(resp_obj.obj['volume_type'], vol_type)
@@ -134,7 +134,7 @@ class VolumeTypeActionController(wsgi.Controller):
     def index(self, req, resp_obj):
         context = req.environ['cinder.context']
         if soft_authorize(context):
-            # Attach our slave template to the response object
+            # Attach our subordinate template to the response object
             resp_obj.attach(xml=VolumeTypesTemplate())
             for vol_type_rval in list(resp_obj.obj['volume_types']):
                 type_id = vol_type_rval['id']
@@ -145,7 +145,7 @@ class VolumeTypeActionController(wsgi.Controller):
     def detail(self, req, resp_obj):
         context = req.environ['cinder.context']
         if soft_authorize(context):
-            # Attach our slave template to the response object
+            # Attach our subordinate template to the response object
             resp_obj.attach(xml=VolumeTypesTemplate())
             for vol_type_rval in list(resp_obj.obj['volume_types']):
                 type_id = vol_type_rval['id']
@@ -156,7 +156,7 @@ class VolumeTypeActionController(wsgi.Controller):
     def create(self, req, body, resp_obj):
         context = req.environ['cinder.context']
         if soft_authorize(context):
-            # Attach our slave template to the response object
+            # Attach our subordinate template to the response object
             resp_obj.attach(xml=VolumeTypeTemplate())
             type_id = resp_obj.obj['volume_type']['id']
             vol_type = req.cached_resource_by_id(type_id, name='types')
